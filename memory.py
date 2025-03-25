@@ -53,7 +53,7 @@ for msg in previous_messages:
 conversation = LLMChain(llm=ChatOllama(model=model), memory=memory, prompt=prompt)
 
 # Example conversation flow
-user_input = "Can you summarize what you just told me?"
+user_input = "Tell me about sustainability in Artificial Intelligence"
 bot_response = conversation.invoke(user_input)
 
 # Store in MongoDB
