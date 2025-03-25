@@ -1,3 +1,4 @@
 pymongo
 langchain
 langchain_ollama
+langchain_community
